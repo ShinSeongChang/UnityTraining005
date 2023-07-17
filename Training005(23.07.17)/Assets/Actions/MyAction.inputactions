@@ -1,0 +1,57 @@
+{
+    "name": "MyAction",
+    "maps": [
+        {
+            "name": "AppleControlMap",
+            "id": "cf64b7af-9f95-4559-9dc9-f62d28cf498b",
+            "actions": [
+                {
+                    "name": "AppleEat",
+                    "type": "Button",
+                    "id": "8482ec3f-a3fe-4619-8238-b55aa0589817",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "177e95be-8a08-4d1e-b69e-b7908eed93bc",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AppleController",
+                    "action": "AppleEat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1fa0bc7-20da-4208-9396-9c226fa90e52",
+                    "path": "<Keyboard>/#(Q)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AppleEat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "AppleController",
+            "bindingGroup": "AppleController",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
